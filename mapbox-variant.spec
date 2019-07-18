@@ -1,15 +1,13 @@
 %global debug_package %{nil}
 
 Name:           mapbox-variant
-Version:        1.1.5
-Release:        5%{?dist}
+Version:	1.1.6
+Release:	1
 Summary:        A header-only alternative to boost::variant for C++11 and C++14
 
 License:        Boost and BSD
 URL:            https://github.com/mapbox/variant
 Source0:        https://github.com/mapbox/variant/archive/v%{version}/%{name}-%{version}.tar.gz
-# https://github.com/mapbox/variant/pull/143
-Patch0:         mapbox-variant-catch.patch
 
 %description
 Mapbox variant has the same speedy performance of boost::variant but is
