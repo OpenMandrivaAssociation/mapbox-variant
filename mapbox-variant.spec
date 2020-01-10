@@ -25,7 +25,7 @@ faster to compile, results in smaller binaries, and has no dependencies.
 
 %prep
 %setup -n variant-%{version}
-%apply_patches
+%autopatch -p1
 sed -i -e 's/-Werror //' Makefile
 sed -i -e 's/-march=native //' Makefile
 rm -f test/include/catch.hpp
