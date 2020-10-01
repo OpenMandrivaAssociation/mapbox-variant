@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           mapbox-variant
-Version:	1.1.6
+Version:	1.2.0
 Release:	1
 Summary:        A header-only alternative to boost::variant for C++11 and C++14
 
