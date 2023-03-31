@@ -2,7 +2,7 @@
 
 Name:           mapbox-variant
 Version:	1.2.0
-Release:	1
+Release:	2
 Summary:        A header-only alternative to boost::variant for C++11 and C++14
 
 License:        Boost and BSD
